@@ -1,0 +1,24 @@
+{
+  "name": "notaden",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) Server for Nota",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch & node --watch build/index.js"
+  },
+  "author": "Ayush Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
