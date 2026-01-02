@@ -5,8 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js",
-    "dev": "tsc --watch & node --watch build/index.js"
+    "start": "node --env-file=.env build/index.js",
+    "dev": "tsc --watch & node --env-file=.env --watch build/index.js"
   },
   "author": "Ayush Kumar",
   "license": "ISC",
