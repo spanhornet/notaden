@@ -1,6 +1,6 @@
 # Notaden
 
-An MCP (Model Context Protocol) server for managing markdown notes. This project exposes a set of tools that allow Large Language Models (LLMs) to create, read, update, delete, and search markdown notes stored on your filesystem.
+An MCP (Model Context Protocol) server for managing notes. This project exposes a set of tools that allow Large Language Models (LLMs) to create, read, update, delete, and search notes stored on your filesystem.
 
 ## Features
 
